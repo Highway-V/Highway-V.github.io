@@ -1,0 +1,105 @@
+@media only screen and (max-width: 875px) {
+    .container nav .text {
+        display: none;
+    }
+
+    .container section#home .dots {
+        display: none;
+    }
+
+    .container nav .burger-menu {
+        display: flex !important;
+    }
+
+    .container nav .logo-container .server {
+        display: none;
+    }
+
+    .container section#home .middle {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    .container section#home .middle .text {
+        margin-left: 0vh;
+    }
+
+    .container section#home .middle img#person {
+        display: none;
+    }
+    .container section#home .middle img#glow {
+        display: none;
+    }
+
+    .container section#content .gradient .inner-wrapper .step-item {
+        flex-direction: column;
+    }
+
+    .container section#content .gradient .inner-wrapper .step-item {
+        margin-right: 0 !important;
+        margin-left: 0 !important;
+    }
+
+    .container section#content .gradient .inner-wrapper .step-item .image-holder {
+        margin-bottom: 2vh;
+    }
+
+    .container section#content .gradient .inner-wrapper .step-item svg {
+        display: none;
+    }
+
+    .container section#content .gradient .inner-wrapper .middle {
+        flex-direction: column-reverse;
+    }
+
+    .container section#content .gradient .inner-wrapper .middle .text {
+        margin-right: -5.5vh !important;
+    }
+
+    .container section#content {
+        min-height: 140vh;
+    }
+
+    .container section#content .gradient {
+        min-height: 140vh;
+    }
+
+    .container .tilt {
+        bottom: 14vh;
+    }
+
+    .container section#footer {
+        min-height: 20vh;
+    }
+
+    .container section#footer .inner-wrapper {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .container section#footer .inner-wrapper .rights {
+        margin-bottom: 1vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container section#footer .inner-wrapper .partner {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container .top .text {
+        display: none;
+    }
+
+    .container .contact .contact-container .contact-list {
+        max-height: 20vh;
+    }
+}
